@@ -54,7 +54,7 @@ keywords(MVVM, Retrofit)
     <img src="./screenshots/tp3_2.jpg" alt="tp3_2" style="height: 350px; margin-right 40px;"/>
     <img src="./screenshots/tp4.jpg" alt="TP5" title="TP5" style="height: 350px; margin-right 40px;"/>
     <img src="./screenshots/tp5_1.jpg" alt="tp5_1"  style="height: 350px; margin-right 40px;"/>
-    <img src="./screenshots/tp5_1.jpg" alt="tp5_2"  style="height: 350px; margin-right 40px;"/>
+    <img src="./screenshots/tp5_2.jpg" alt="tp5_2"  style="height: 350px; margin-right 40px;"/>
 </div>
 
 
