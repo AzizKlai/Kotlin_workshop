@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/fragmentBusSchedule3">
+    <fragment
+        android:id="@+id/fragmentBusSchedule3"
+        android:name="com.example.tp4_busschedule_database.FragmentBusSchedule"
+        android:label="fragment_bus_schedule"
+        tools:layout="@layout/fragment_bus_schedule" >
+        <action
+            android:id="@+id/action_fragmentBusSchedule3_to_fragmentDetailSchedule2"
+            app:destination="@id/fragmentDetailSchedule2" />
+    </fragment>
+    <fragment
+        android:id="@+id/fragmentDetailSchedule2"
+        android:name="com.example.tp4_busschedule_database.FragmentDetailSchedule"
+        android:label="fragment_detail_schedule"
+        tools:layout="@layout/fragment_detail_schedule" />
+</navigation>

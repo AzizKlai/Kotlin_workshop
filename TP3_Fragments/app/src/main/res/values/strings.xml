@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">TP3_Fragments</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="action_refresh">refresh time</string>
+    <string name="action_color">action color</string>
+    <string name="digital_string">Digital</string>
+</resources>

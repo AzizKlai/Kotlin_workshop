@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@color/white">
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:elevation="0dp"
+        android:background="@color/purple_500">
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/app_bar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            app:title="TP1"
+            app:titleTextColor="@color/white"
+            android:paddingStart="12dp"
+            android:paddingLeft="12dp"
+            android:paddingEnd="12dp"
+            android:paddingRight="12dp"
+            app:contentInsetStart="0dp"
+
+            />
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:clipChildren="false"
+      android:clipToPadding="false"
+      android:orientation="vertical"
+      android:padding="24dp"
+      android:paddingTop="16dp"
+      >
+
+      <ImageView
+          android:id="@+id/imageView"
+          android:layout_width="173dp"
+          android:layout_height="158dp"
+          android:layout_gravity="center_horizontal"
+          android:layout_marginTop="100dp"
+          android:layout_marginBottom="16dp"
+          android:src="@drawable/insat_logo" />
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/tilEmail"
+            style="@style/TextAppearance.Shrine.TextInputLayout.HintText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="4dp"
+            app:boxBackgroundColor="#bdbdbd"
+
+            android:hint="Email">
+            <com.google.android.material.textfield.TextInputEditText
+              android:id="@+id/email"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:layout_marginTop="16dp"
+              android:textColor="@color/black" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/tilPassword"
+            style="@style/TextAppearance.Shrine.TextInputLayout.HintText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="4dp"
+            app:boxBackgroundColor="#bdbdbd"
+            android:hint="Password">
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+
+            android:textColor="@color/black"/>
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <CheckBox
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_gravity="center_horizontal"
+          android:layout_margin="16dp"
+          android:textColor="@color/black"
+          android:text="se souvenir de moi" />
+
+      <com.google.android.material.button.MaterialButton
+          android:id="@+id/btnConnect"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:text="se connecter"/>
+
+  </LinearLayout>
+</FrameLayout>
+
+<!--
+
+-->
